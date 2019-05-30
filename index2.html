@@ -5,6 +5,14 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+  }
+
+
+
+
   <div class="container">
     <div class="jumbotron">
       <h1>My First Week at Epicodus</h1>
@@ -13,12 +21,13 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-4">
 
         <h1>My First Week at Epicodus</h1>
         <p>
           I've almost finished my first week at Epicodus. Here are some of the things I've learned so far:
         </div>
+         <div class="col-md-4">
       </p>
     </div>
   </div>
@@ -33,11 +42,12 @@
       </ul>
     </div>
   </div>
+  </div>
     </div>
     <div class="panel panel-info">
       <div class="panel-heading">
         <h2 class="panel-title">Git and GitHub</h2>
-      </div>
+        <div class="col-md-4">
       <div class="panel-body">
         <ul>
           <li>Initializing local Git repository, and create remote GitHub repositories.</li>
@@ -49,7 +59,9 @@
           <li>Publishing a website on GitHub pages.</li>
         </ul>
       </div>
+      </div>
       <div class="well">
+          <div class="col-md-4">
         <h2>HTML</h2>
         <ul>
           <li>Using HTML tags to create websites.</li>
@@ -60,9 +72,8 @@
           <li>Adding classes and ID's to style HTML with CSS.</li>
         </ul>
       </div>
+    </div>
       <div class="well">
-        <div class="row">
-
           <h2>CSS</h2>
           <ul>
             <li>Creating a stylesheet.</li>
